@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Nelson Bighetti
+name: Nyasha Chambwe
 
 # Username (this should match the folder name)
 authors:
@@ -10,15 +10,15 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Senior Bioinformatics Scientist
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
+- name: St Jude Children's Research Hospital
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: I am interested in how genomic technologies can elucidate disease pathways and inform treatment.
 
 interests:
 - Artificial Intelligence
