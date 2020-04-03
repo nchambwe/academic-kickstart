@@ -15,7 +15,7 @@ role: Senior Bioinformatics Scientist
 # Organizations/Affiliations
 organizations:
 - name: St Jude Children's Research Hospital
-  url: ""
+  url: "www.stjude.org"
 
 # Short bio (displayed in user profile at end of posts)
 bio: I am interested in how genomic technologies can elucidate disease pathways and inform treatment.
@@ -28,7 +28,7 @@ interests:
 education:
   courses:
   - course: PhD in Computational Biology
-    institution: Cornell University
+    institution: Weill Cornell Medicine
     year: 2014
   - course: BSc in Biology
     institution: Jackson State University
@@ -45,12 +45,15 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/doc_nyasha
+- icon: github
+  icon_pack: fab
+  link: https://github.com/nchambwei
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=ts-GDdoAAAAJ&hl=en
-- icon: github
+- icon: linkedin
   icon_pack: fab
-  link: https://github.com/nchambwe
+  link: https://www.linkedin.com/in/nchambwe
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 # - icon: cv
