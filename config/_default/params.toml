@@ -9,7 +9,7 @@
 #   Latest themes (may require updating): https://sourcethemes.com/academic/themes/
 #   Browse built-in themes in `themes/academic/data/themes/`
 #   Browse user installed themes in `data/themes/`
-theme = "minimal"
+theme = "academic"
 
 # Enable users to switch between day and night mode?
 day_night = true
@@ -18,7 +18,7 @@ day_night = true
 #   Latest font sets (may require updating): https://sourcethemes.com/academic/themes/
 #   Browse built-in font sets in `themes/academic/data/fonts/`
 #   Browse user installed font sets in `data/fonts/`
-font = ""
+font = "minimal"
 
 # Choose a font size.
 # Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
@@ -57,8 +57,8 @@ logo = ""
 # Enable source code highlighting? true/false
 # Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
 highlight = true
-highlight_languages = ["r"]  # Add support for highlighting additional languages
-# highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
+highlight_languages = ["bash", "cs", "http", "javascript", "json", "markdown", "r", "xml", "yaml"] # Add support for highlighting additional languages
+highlight_style = "xcode"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
 
 # Enable LaTeX math rendering? true/false
 #   If false, you can enable math on a per page basis as needed.
@@ -75,7 +75,7 @@ privacy_pack = false
 
 # Enable visitors to edit pages?
 #   `repo` defines the repository URL. `editable` defines which page types can be edited.
-edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", repo_branch = "master", editable = {docs = true, page = false, post = false}}
+# edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", repo_branch = "master", editable = {docs = true, page = false, post = false}}
 
 ############################
 ## Contact details
@@ -161,7 +161,7 @@ docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
 sharing = true
 
 # Link authors to their profile page? (true/false)
-link_authors = true
+link_authors = false
 
 # Load JS plugins
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
@@ -177,15 +177,15 @@ plugins_js  = []
   citation_style = "apa"
 
 # Configuration of project pages.
-[projects]
+#[projects]
   # Views for associated content.
   #   1: List
   #   2: Compact
   #   3: Card
   #   4: Citation (publications only)
-  post_view = 2
-  publication_view = 2
-  talk_view = 2
+  #post_view = 2
+  #publication_view = 2
+  #talk_view = 2
 
 ############################
 ## Comments

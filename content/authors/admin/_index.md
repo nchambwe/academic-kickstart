@@ -66,4 +66,4 @@ user_groups:
 - Researchers
 - Visitors
 ---
-Nyasha Chambwe is a computational biologist at St. Jude Children's Research Hospital. Her research interests include cancer genomics.
+I am a computational biologist at St. Jude Children's Research Hospital. I am interested in how genomic technologies can elucidate disease pathways and inform treatment.

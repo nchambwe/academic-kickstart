@@ -9,11 +9,12 @@ title = "Nyasha Chambwe"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "https://nchambwe.github.io/"
+baseurl = "https://nchambwe.github.io"
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
-copyright = ""
+copyright = "&copy; 2019"
+
 
 ############################
 ## Advanced options below ##
@@ -36,9 +37,15 @@ enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
+[params]
+   fullWidthTheme = false
+   centerTheme = false
+
 [outputs]
   home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]
   section = [ "HTML", "RSS" ]
+  #taxonomy = [ "HTML", "RSS" ]
+  #taxonomyTerm = [ "HTML", "RSS" ]
 
 [mediaTypes."application/manifest+json"]
   suffixes = ["webmanifest"]
@@ -51,8 +58,9 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 #   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
 [blackfriday]
   hrefTargetBlank = true  # `true` opens external links in a new tab. See https://github.com/gohugoio/hugo/issues/2424
-	angledQuotes = false
-	latexDashes = true
+  angledQuotes = false
+  fractions = true # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
+  latexDashes = true
   extensions = ["backslashLineBreak"]
 
 [imaging]
@@ -60,9 +68,26 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   quality = 90
   anchor = "smart"  # Anchor for cropping. Options include Smart and Center.
 
+# Publication types.
+  #   Used to categorize publications.
+  #   The index of the publication type in the list is used as its unique numerical identifier.
+  #   The numeric ID is used in a publication's frontmatter to categorize it.
+  #   The language can be edited below.
+  #   For multilingual sites, `publication_types` can be copied to each language section at the end of this file and
+  #   translated.
+  publication_types = [
+    'Uncategorized',  # 0
+    'Conference paper',  # 1
+    'Journal article',  # 2
+    'Manuscript',  # 3
+    'Report',  # 4
+    'Book',  # 5
+    'Book section'  # 6
+  ]
+
 # Taxonomies.
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-  publication_type = "publication_types"
-  author = "authors"
+#[taxonomies]
+#  tag = "tags"
+#  category = "categories"
+#  publication_type = "publication_types"
+#  author = "authors"
