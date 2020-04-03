@@ -18,7 +18,7 @@ organizations:
   url: "www.stjude.org"
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am interested in how genomic technologies can elucidate disease pathways and inform treatment.
+bio: I am interested in how genomic technologies can elucidate disease pathways and inform treatment. {{% staticref "files/cv.pdf" %}}Download my CV here {{% /staticref %}}.
 
 interests:
 - Computational (Epi)Genomics
